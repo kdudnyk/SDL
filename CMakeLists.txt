@@ -1821,7 +1821,7 @@ if(SDL_TEST)
   file(GLOB TEST_SOURCES ${SDL2_SOURCE_DIR}/src/test/*.c)
   add_library(SDL2_test STATIC ${TEST_SOURCES})
 
-  add_subdirectory(test)
+  #~ add_subdirectory(test)
 endif()
 
 ##### Installation targets #####
